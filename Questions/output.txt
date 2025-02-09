@@ -1,0 +1,18 @@
+1|Are you currently experiencing any pain?|Yes|No
+2|Is the pain in your upper body or lower body?|Upper body|Lower body
+3|Are you currently feeling nauseous?|Yes|No
+4|Is the pain in your chest or head ?|Chest|Head
+5|Is the pain in your legs or around your waist ?|Legs|waist
+6|Do you also have fever or headache ?|Yes|No
+7|Do you have any other concerning symptoms?|Yes|No
+8|Are you experience tightness in your chest?|Yes|No
+9|Are your headaches acute or chronic?|Yes|No
+10|Is the pain in your legs severe or mild?|Severe|Mild
+11|Is the pain concentrated on your back or around the thighs?|Back|Thighs
+12|Is the fever severe or mild ?|Severe|Mild
+13|Do you have any other concerning symptoms?|Yes|No
+16|Is the pain severe or mild ?|Severe|Mild
+17|Do you have any other concerning symptoms?|Yes|No
+19|Do you have any other concerning sysmptoms?|Yes|No
+22|Is the pain concentrated on joints?|Yes|No
+23|Is the accompanied by irritation?|Yes|No

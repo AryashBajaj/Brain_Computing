@@ -1,0 +1,4 @@
+Are you currently experiencing any pain?|No
+Are you currently feeling nauseous?|Yes
+Do you also have fever or headache ?|No
+Do you have any other concerning symptoms?|No

@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+torch
+torchvision
+mne
+pylsl
+requests
+ttkbootstrap
+tkinter
+translate

@@ -1,0 +1,32 @@
+{
+  "bn": {
+    "Yes": "হ্যাঁ",
+    "No": "না",
+    "Are you currently experiencing any pain?": "আপনি কি বর্তমানে কোনো ব্যথা ভোগ করছেন?",
+    "Upper body": "উপরের মোট মান",
+    "Is the pain in your upper body or lower body?": "তোমার শরীরের ব্যথা কি তোমার শরীরের নাকি নিম্ন শরীরের?",
+    "Are you currently feeling nauseous?": "তোমার কি এখন খারাপ লাগছে?",
+    "Lower body": "নিচের মোট মান",
+    "Is the pain in your chest or head ?": "তোমার বুকের ব্যাথা হবে নাকি?",
+    "Chest": "চেমপেন",
+    "Head": "হেড",
+    "Is the pain in your legs or around your waist ?": "তোমাদের মধ ্ যে কি পা ও ব ্ যাধি আছে ?",
+    "Legs": "লেগস",
+    "waist": "কোমর",
+    "Do you have any other concerning symptoms?": "লক্ষণের অন্য কোন লক্ষণ আছে?",
+    "Do you also have fever or headache ?": "তোমরা কি এ বিষয়ে নিশ ্ চিন ্ ত রয়েছ , না আমি ?",
+    "Are you experience tightness in your chest?": "তোমার বুকের মধ্যে একটু শক্ত হয়ে থাকার অভিজ্ঞতা আছে?",
+    "Are your headaches acute or chronic?": "তোমার মাথা কি প্রচণ্ড নাকি দীর্ঘস্থায়ী?",
+    "Is the pain in your legs severe or mild?": "তোমার পায়ে ব্যথা কি কঠিন নাকি মৃদু?",
+    "Severe": "ধরন:",
+    "Mild": "মিলডেনহাল",
+    "Is the pain concentrated on your back or around the thighs?": "ব্যথা কি আপনার পিঠে অথবা পায়ের আশেপাশে?",
+    "Back": "পূর্ববর্তী",
+    "Thighs": "তাউস",
+    "Is the fever severe or mild ?": "যা চামড়া তুলে দিবে ।?",
+    "Is the pain severe or mild ?": "যা চামড়া তুলে দিবে ।?",
+    "Do you have any other concerning sysmptoms?": "আপনার কাছে কি অন্য কোন স্পেকট্রাম আছে?",
+    "Is the accompanied by irritation?": "কা. পূ?",
+    "Is the pain concentrated on joints?": "জয়েন্টে কি ব্যথা আছে?"
+  }
+}

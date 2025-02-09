@@ -1,0 +1,25 @@
+1|Are you currently receiving any pain medication?|Yes|No
+2|Has your doctor prescribed medication to help with spasticity or muscle stiffness?|Yes|No
+3|Have you experienced any dizziness after taking your prescribed medication?|Yes|No
+4|Are you taking any medications to help with digestion or bowel movement?|Yes|No
+5|Have you been prescribed any anti-seizure medication?|Yes|No
+6|Have you had any allergic reactions to any of your medications?|Yes|No
+7|Is there a medication that helps you manage pain or discomfort that you've been prescribed?|Yes|No
+8|Are you currently on any antidepressants or mood-stabilizing medications?|Yes|No
+9|Do you take any medications for blood pressure regulation?|Yes|No
+10|Do you experience any nausea or vomiting after taking your medications?|Yes|No
+11|Have you been prescribed any antibiotics for infections related to paralysis (e.g., urinary tract, respiratory)?|Yes|No
+12|Have you been given medication for respiratory support (e.g., bronchodilators, corticosteroids)?|Yes|No
+13|Are you receiving any sedatives or sleeping medications to help with rest?|Yes|No
+14|Do you take any medications to prevent deep vein thrombosis (DVT) or other blood clots?|Yes|No
+15|Do you regularly take any medication to support your nutritional intake (e.g., vitamins, electrolytes)?|Yes|No
+16|Are you feeling hungry?|Yes|No
+17|Do you feel like eating solid food?|Yes|No
+18|Do you prefer soft or liquid food?|Soft|Liquid
+19|Do you experience difficulty swallowing?|Yes|No
+20|Are you thirsty or dehydrated?|Thirsty|Dehydrated
+21|Would you prefer sweet or savory food?|Sweet|Savory
+22|Are you experiencing nausea?|Yes|No
+23|Do you feel pain or discomfort in your stomach?|Yes|No
+24|Have you eaten in the past 6 hours?|Yes|No
+25|Are you experiencing dry mouth or difficulty chewing?|Yes|No
