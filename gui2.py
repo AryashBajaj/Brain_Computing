@@ -258,7 +258,6 @@ def show_instructions():
     root.title("Instructions")
     root.geometry("800x600")
     root.configure(bg="#f7f7f7")
-
     loading_label = tk.Label(
         root,
         text="Loading system...",
