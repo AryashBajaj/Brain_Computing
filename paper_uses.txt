@@ -1,0 +1,23 @@
+Converting your thoughts to texts: Enabling brain typing via deep feature learning of EEG signals (X. Zhang, L. Yao)
+--------------------------------------------------------------------------------------
+Our project really takes inspiration from this paper's main idea—using EEG signals to type or control things. You can see this in our real-time BCI apps, like gui.py, gui2.py, and game.py. We use deep learning models (CNNs, RNNs) to pull features from EEG data, just like they did. Scripts like getData2.py and snippets/getData.py help us get the EEG data ready for the models, which is a big part of what the paper focused on. The way we stream and predict in real time (using pylsl, MNE, and PyTorch) is pretty similar to their brain typing system, even if we're not doing exactly the same thing.
+
+The Recognition of Action Idea EEG with Deep Learning (Zou, Guoxia)
+-------------------------------------------------------------------
+A lot of our work on classifying imagined actions or intentions from EEG is related to this paper. The deep neural networks we use in modelTrain3.py and CNN_RNN_AE/modelTrain.py are built to catch both space and time features in the EEG, which is what Zou's paper is all about. We also use multi-channel EEG and temporal filtering, and our models try to recognize what the user is thinking, which is basically what they did. The real-time action recognition in game.py and gui.py is our way of putting these ideas into practice.
+
+EEG-DG: A Multi-Source Domain Generalization Framework for Motor Imagery EEG Classification (X.-C. Zhong et al.)
+---------------------------------------------------------------------------------------------------------------
+We tried to bring in some of the domain generalization ideas from this paper, especially for motor imagery EEG. While we don't have a direct EEG-DG implementation, we do use data from different people and sessions (see getData2.py, snippets/getData.py), and our training scripts aim for good performance even on new users. We use normalization, scaling, and some data augmentation to cut down on bias, which lines up with what EEG-DG is about. We don't use adversarial learning or explicit domain alignment, though.
+
+Conscious While Being Considered in an Unresponsive Wakefulness Syndrome for 20 Years (Vanhaudenhuyse et al.)
+-------------------------------------------------------------------------------------------------------------
+This paper influenced us to focus on brain-based ways to detect intent or state, not just behavior. That's why we use EEG as our main input and do advanced signal processing (MNE, filtering, epoching). Our project isn't about clinical diagnosis, but the same methods could be used for that, so it shows how our tech could be useful in other areas too.
+
+A deep domain adaptation framework with correlation alignment for EEG-based motor imagery classification (X.-C. Zhong et al.)
+-----------------------------------------------------------------------------------------------------------------------------
+We're aware of the domain adaptation challenges in EEG, and you can see that in how we handle and normalize the data. But we don't actually use correlation alignment or any advanced domain adaptation frameworks. Our training scripts (modelTrain3.py, CNN_RNN_AE_XGB/training.py) stick to standard normalization and oversampling (RandomOverSampler) to deal with class imbalance and differences between people. The paper's influence is more about motivating us to think about generalization, even if we haven't added their specific methods yet.
+
+EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces (V. J. Lawhern et al.)
+-------------------------------------------------------------------------------------------------------------
+The neural networks in our code (modelTrain3.py, CNN_RNN_AE/modelTrain.py, CNN_RNN_AE_XGB/training.py) are definitely inspired by EEGNet. We use compact CNNs and efficient feature extraction for EEG, which is what EEGNet is known for. Our models are adapted for both classification and autoencoding. We don't have the exact EEGNet code, but the idea of making models that are small, interpretable, and robust is all over our project. The real-time BCI parts show how useful these kinds of models can be. 

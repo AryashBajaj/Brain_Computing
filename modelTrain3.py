@@ -106,7 +106,14 @@ def main() :
         print(f"Epoch {epoch + 1}/{epochs} - Loss: {running_loss / len(train_loader):.4f} - Accuracy: {accuracy:.4f}")
         accuracies[epoch + 1] = accuracy
     
-    sns.lineplot(data=accuracies)
+    plt.figure(figsize=(10, 6))
+    sns.lineplot(data=accuracies, marker='o')
+    plt.title('Model Accuracy Over Training Epochs CNN+LSTM (OverSampled)', pad=15)
+    plt.xlabel('Epoch Number')
+    plt.ylabel('Accuracy Score')
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.ylim(0, 1)  # Accuracy range is 0-1
+    plt.tight_layout()
     plt.show()
     
     torch.save(model.state_dict(), 'models\\other_model_9.pth')

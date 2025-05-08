@@ -1,4 +1,5 @@
-Are you currently experiencing any pain?|No
-Are you currently feeling nauseous?|Yes
-Do you also have fever or headache ?|No
-Do you have any other concerning symptoms?|No
+Are you currently receiving any pain medication?|Yes
+Has your doctor prescribed medication to help with spasticity or muscle stiffness?|No
+Have you been prescribed any anti-seizure medication?|No
+Have you been prescribed any antibiotics for infections related to paralysis (e.g., urinary tract, respiratory)?|No
+Do you feel pain or discomfort in your stomach?|No

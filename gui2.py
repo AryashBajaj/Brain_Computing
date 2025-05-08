@@ -302,7 +302,7 @@ def show_instructions():
     
     def check_initialization():
         if initialization_complete.is_set():
-            root.after(1000, lambda: [root.destroy(), start_questionnaire()])
+            root.after(3000, lambda: [root.destroy(), start_questionnaire()])
         else:
             root.after(100, check_initialization)
     

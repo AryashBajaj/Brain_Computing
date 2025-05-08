@@ -1,0 +1,23 @@
+Converting your thoughts to texts: Enabling brain typing via deep feature learning of EEG signals (X. Zhang, L. Yao)
+--------------------------------------------------------------------------------------
+This paper looks at how to turn EEG signals into text, basically letting people "type" with their brain. The authors use deep learning, combining CNNs and RNNs, to pick up patterns in EEG data when people imagine writing letters or words. Their approach works better than older machine learning methods, showing that deep learning can make brain-to-text communication more accurate and practical. It's not perfect, but it's a solid step toward real brain-computer typing.
+
+The Recognition of Action Idea EEG with Deep Learning (Zou, Guoxia)
+-------------------------------------------------------------------
+This study focuses on recognizing what action someone is thinking about, just from their EEG signals. The authors designed a deep neural network that can catch both spatial and temporal features in the data. Their results show that deep learning can tell apart different imagined actions more reliably than traditional methods. This is promising for brain-computer interfaces, especially for controlling devices with your thoughts.
+
+EEG-DG: A Multi-Source Domain Generalization Framework for Motor Imagery EEG Classification (X.-C. Zhong et al.)
+---------------------------------------------------------------------------------------------------------------
+Here, the authors tackle the problem of making EEG models that work well for new people or sessions, not just the ones they were trained on. They introduce EEG-DG, a framework that learns features that generalize across different subjects and sessions. They use techniques like adversarial learning and domain alignment to reduce bias. Their method outperforms standard models when tested on new users, which is important for real-world BCI systems.
+
+Conscious While Being Considered in an Unresponsive Wakefulness Syndrome for 20 Years (Vanhaudenhuyse et al.)
+-------------------------------------------------------------------------------------------------------------
+This is a case study about a patient who was thought to be in a vegetative state for 20 years, but later showed signs of consciousness through EEG and brain scans. The main takeaway is that behavioral tests alone aren't always enough—you need brain-based assessments too. EEG and neuroimaging can reveal hidden awareness, which is crucial for proper diagnosis and care.
+
+A deep domain adaptation framework with correlation alignment for EEG-based motor imagery classification (X.-C. Zhong et al.)
+-----------------------------------------------------------------------------------------------------------------------------
+This paper presents a way to make EEG models more robust across different people by aligning the data distributions using correlation alignment in a deep learning setup. The idea is to help the model focus on the actual brain signals and ignore differences between subjects. Their results show better accuracy for cross-subject tasks compared to other methods, which is a useful step for making BCIs more flexible.
+
+EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces (V. J. Lawhern et al.)
+-------------------------------------------------------------------------------------------------------------
+EEGNet is a lightweight but effective CNN designed specifically for EEG data. It uses depthwise and separable convolutions to keep the model small but still able to pick up important patterns. EEGNet works well for a variety of BCI tasks and doesn't need a lot of training data. It's also relatively easy to interpret, making it a popular choice for EEG research and applications. 
